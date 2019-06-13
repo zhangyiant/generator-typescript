@@ -1,5 +1,5 @@
 {
-  "name": "generator-typescript",
+  "name": "@zhangyiant/generator-typescript",
   "version": "1.0.0",
   "description": "Typescript generator for yeoman",
   "scripts": {
