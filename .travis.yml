@@ -1,1 +1,8 @@
 language: node_js
+deploy:
+  provider: npm
+  email: zhangyiant@hotmail.com
+  api_key:
+    secure: gfjr5WCSo5zrU7IoUFZ3V5VoI+Zx6cBvrl2y9IG+B5DhnI/eN752KGj7a/38RjHF8oJGNi4Rlyfk3yy+6j5CG76EhWIrwGrsuWU25CUjAKwRzEVU501ek7uQxBjr42nQwAvrpGHdD9wIkdUf/EvZqAV1m4v1sPNXiNvNsB6vF8I8i8o7jKV2WnS6RAxhQG8bwO4JW+HHgj8/VfYfUNOpCDOStrcmn2DhKGxbQPNC0U9YYBISHS3OEakTonOuADlKWbOc6k4ZmR9MfNlEghndOJQSdudhe06T77sMJAIhQxAKc3pgGtKYTGfFs/g3WZc7USPz3eBsK80ohzK/ZWQG/tlv2LvJAXsUlmIbEy9Ba1h4gIg/p6/h6msv9S0a4kOg1usKssXthgqZz1tRa0IYSglLOlwJZi7EusPZz+NfXIDF+NKpUDbmCA2yQnGYNWdXLLZ3FlqOurrbdANhdVcFOPsGTT0ZqjF9gp1XqmfL1rhnOchhelG/IsBYK1qYrArkvyENf8XcOIV5rfE9gUnfh74LzjPFh8+mfqbHn2W6ce3Fuwmj11irlhcI6+aGyRghulqvdfYbJbmpjO0xqvWCI+K+M1mAgEruuFHtvmoAg5tBx4TnBD0AmmA1CSpNlYunybTJunw329r/vaoP/KOcpeWF8DTVsP9zumSm2EPY/tU=
+  on:
+    tags: true
