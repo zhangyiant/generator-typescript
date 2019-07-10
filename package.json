@@ -20,5 +20,8 @@
   "homepage": "https://github.com/zhangyiant/generator-typescript#readme",
   "dependencies": {
     "yeoman-generator": "^4.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
